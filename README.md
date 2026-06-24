@@ -3,6 +3,11 @@
 A verification-side reference for the **modality-independent action layer** in multimodal agentic AI security.
 
 ## What this is
+
+![Figure 1: Cross-modality action-layer containment. Ingress filtering is leaky; the action-layer gate (AISVS v1.0 C9.2.3, C9.2.4, C9.2.10) is the modality-independent chokepoint.](figures/fig1-action-layer-containment.png)
+
+*Figure 1. Cross-Modality Action-Layer Containment.*
+
 When an AI agent perceives and acts across text, images, audio, and video, each modality opens an input attack surface that text defenses do not see. Per-modality input filtering is necessary and never complete. This reference documents the layer that holds when an input defense fails: the **action layer**, which is the same regardless of which modality carried the injection.
 
 It anchors on three primitives, all modality-agnostic:
@@ -16,6 +21,9 @@ It anchors on three primitives, all modality-agnostic:
 
 ## Landscape
 A cited index of the full multimodal-agentic-security landscape (attack surfaces, incidents, benchmarks, mitigation tiers) is in `LANDSCAPE.md`. The action-layer floor is tier 5 / the backstop.
+
+## RFC-format document
+The full contribution in RFC style (Status, Abstract, numbered sections, Terminology, Security Considerations, Normative/Informative references) is in **`RFC.md`**. The individual files below are the same material broken out.
 
 ## Contents
 - `SECTION_cross_modality_action_layer_containment.md`: the drafted action-layer section (attack motivation + defense).

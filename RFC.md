@@ -29,6 +29,11 @@ Per-modality input defenses decode, scan, and harden each modality before the mo
 
 ## 3. Attack Taxonomy
 
+![Figure 2: Multimodal attack surfaces across image, audio, and video, sharing four embedding families and converging on the action-layer gate.](figures/fig2-multimodal-attack-surfaces.png)
+
+*Figure 2. Multimodal Attack Surfaces (image / audio / video).*
+
+
 The attack is the product of two independent choices. Filtering one ingress family or patching one egress channel leaves every other combination open.
 
 ### 3.1 Embedding technique (ingress)
@@ -54,6 +59,11 @@ Auto-fetched remote image (Cursor CVE-2025-54132, EchoLeak); allowlisted-proxy e
 | 4. Action-layer floor (modality-independent) | action-class gating; worst-case chain gate; chain-level audit; HITL for non-allowlisted egress | any ingress times any egress | requires design-time action-class declaration |
 
 ## 5. Cross-Modality Action-Layer Containment
+
+![Figure 1: Cross-modality action-layer containment. Ingress filtering is leaky; the action-layer gate (AISVS v1.0 C9.2.3, C9.2.4, C9.2.10) is the modality-independent chokepoint.](figures/fig1-action-layer-containment.png)
+
+*Figure 1. Cross-Modality Action-Layer Containment.*
+
 
 ### 5.1 Attack motivation
 The harm does not land in the modality. It lands at the tool layer, through a chain. An injection enters through one modality, and the agent composes individually permitted tool calls into an irreversible outcome. EchoLeak is the canonical multimodal instance: a crafted email coerces the agent, an auto-fetched markdown image provides the egress channel, and the composed chain exfiltrates sensitive context through an allowlisted URL, each step passing its own authorization. The structural property is that authorization is evaluated per step while the danger is a property of the composition. The same gap appears outside multimodal entirely: a coding agent chaining four legitimate operations into a system-irreversible write, each operation permitted by the tool authority.

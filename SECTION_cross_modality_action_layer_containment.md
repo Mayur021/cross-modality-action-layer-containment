@@ -1,5 +1,10 @@
 # Cross-Modality Action-Layer Containment
 
+![Figure 1: Cross-modality action-layer containment. Ingress filtering is leaky; the action-layer gate (AISVS v1.0 C9.2.3, C9.2.4, C9.2.10) is the modality-independent chokepoint.](figures/fig1-action-layer-containment.png)
+
+*Figure 1. Cross-Modality Action-Layer Containment.*
+
+
 > Drafted contribution for CoSAI WS4 RFC #113 (Multimodal Agentic Security). Mayur's lane: the
 > modality-independent action-layer backstop, complementary to the per-modality input sections.
 > Citations verified against released OWASP AISVS v1.0 (C9.2.3 / C9.2.4 / C9.2.10). Source threat

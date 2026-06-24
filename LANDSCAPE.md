@@ -3,6 +3,11 @@
 A curated, cited index of the public multimodal-agentic-security landscape (2025-2026), compiled as context for the action-layer contribution in this repo. The authoritative community treatment is the **CoSAI WS4 [RFC] Multimodal Agentic Security (#113)** by Shriti Priya; this index is a reference, not a substitute.
 
 ## Attack surfaces by modality
+
+![Figure 2: Multimodal attack surfaces across image, audio, and video, sharing four embedding families and converging on the action-layer gate.](figures/fig2-multimodal-attack-surfaces.png)
+
+*Figure 2. Multimodal Attack Surfaces (image / audio / video).*
+
 - **Image**: visually embedded text (typographic), steganographic payloads, adversarial perturbations on the vision encoder, and preprocessing/image-scaling exploits. Provenance ambiguity (trusted instruction vs content-in-an-image).
 - **Video**: rendered text in frames, single-frame/temporal hiding, embedded audio track, adversarial perturbations.
 - **Audio**: text-filter bypass via transcription, psychoacoustic/hidden-voice commands, physical-world delivery (DolphinAttack/ultrasonic), transient/unverifiable payloads, speaker/identity confusion.

@@ -4,6 +4,11 @@ The multimodal injection-to-exfiltration attack is the product of two independen
 
 ## Attack taxonomy
 
+![Figure 2: Multimodal attack surfaces across image, audio, and video, sharing four embedding families and converging on the action-layer gate.](figures/fig2-multimodal-attack-surfaces.png)
+
+*Figure 2. Multimodal Attack Surfaces (image / audio / video).*
+
+
 ### Axis A: how the instruction is embedded (ingress)
 | Technique | How it hides | Catches it / what does not |
 |---|---|---|
@@ -25,6 +30,11 @@ The CSA research note (arXiv 2603.03637) reports up to 64% attack success under 
 The attack = (one Axis-A technique) x (one Axis-B channel).
 
 ## Defense taxonomy
+
+![Figure 1: Cross-modality action-layer containment. Ingress filtering is leaky; the action-layer gate (AISVS v1.0 C9.2.3, C9.2.4, C9.2.10) is the modality-independent chokepoint.](figures/fig1-action-layer-containment.png)
+
+*Figure 1. Cross-Modality Action-Layer Containment.*
+
 | Layer | Controls | Catches | Leaks |
 |---|---|---|---|
 | 1. Ingress filtering | OCR decode-then-scan; steganalysis; input transformation (re-encode/blur/resample); scan the post-downscale artifact; query-aware sanitized image descriptions | the technique each is tuned for | no single filter covers all four families; ~64% stealth success |
