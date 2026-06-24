@@ -18,11 +18,11 @@ It anchors on three primitives, all modality-agnostic:
 A cited index of the full multimodal-agentic-security landscape (attack surfaces, incidents, benchmarks, mitigation tiers) is in `LANDSCAPE.md`. The action-layer floor is tier 5 / the backstop.
 
 ## Contents
-- `SECTION_cross_modality_action_layer_containment.md` — the drafted action-layer section (attack motivation + defense).
-- `ATTACK_AND_DEFENSE_TAXONOMY.md` — two-axis attack taxonomy (embedding technique x egress channel) and four-layer defense taxonomy.
-- `LANDSCAPE.md` — cited index of the full public landscape (attack surfaces, incidents, benchmarks, mitigations).
-- `STANDARDS_CROSSWALK.md` — mapping to OWASP, CSA, NIST, MITRE ATLAS.
-- `figures/` — original diagrams (CC BY 4.0).
+- `SECTION_cross_modality_action_layer_containment.md`: the drafted action-layer section (attack motivation + defense).
+- `ATTACK_AND_DEFENSE_TAXONOMY.md`: two-axis attack taxonomy (embedding technique x egress channel) and four-layer defense taxonomy.
+- `LANDSCAPE.md`: cited index of the full public landscape (attack surfaces, incidents, benchmarks, mitigations).
+- `STANDARDS_CROSSWALK.md`: mapping to OWASP, CSA, NIST, MITRE ATLAS.
+- `figures/`: original diagrams (CC BY 4.0).
 
 ## Citation discipline
 AISVS controls are cited at their **released v1.0 numbers** (C9.2.3 / C9.2.4 / C9.2.10, C9 Orchestration & Agentic Security chapter). The CSA NHI six-property chain-audit schema is a v2.0-targeted joint contribution **under CSA IAM WG review**; the v1.0 anchor is the four-element attribution at paragraph 222.
