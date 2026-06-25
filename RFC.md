@@ -102,7 +102,7 @@ Ingress filtering cannot be made complete: OCR catches only typographic text, st
 - CSA Image-Based Prompt Injection note / arXiv 2603.03637; CSA AICM; CSA Agentic Trust Framework; CSA NHI (four-element attribution; six-property chain-audit schema, under review, joint Mallikarjunarao Sunke).
 - NIST AI RMF 1.0 (AI 100-1); GenAI Profile (AI 600-1); SP 800-53 Rev. 5; SP 800-207.
 - MITRE ATLAS AML.T0051, AML.T0099. EU AI Act Article 14.
-- EchoLeak CVE-2025-32711; Cursor CVE-2025-54132 (GHSA-xw2x-252g-97w2); Trail of Bits image-scaling.
+- EchoLeak CVE-2025-32711; Cursor CVE-2025-54132 (GHSA-43wj-mwcc-x93p); Trail of Bits image-scaling.
 - Benchmarks: MM-SafetyBench (2311.17600), JailBreakV-28K (2404.03027), Omni-SafetyBench.
 - CoSAI WS4 Tool Design for Secure Agentic Systems (Donadei, Goodman, Molloy, Kale); [RFC] Multimodal Agentic Security #113 (Shriti Priya).
 - Action-Class Authority: A Verification-Layer Pattern for Agentic AI Security (Mayur Agnihotri).

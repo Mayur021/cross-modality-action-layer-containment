@@ -47,5 +47,5 @@ You cannot fully filter the ingress: OCR catches only typographic text, steganog
 
 ## Sources
 - CSA Image-Based Prompt Injection note / arXiv 2603.03637
-- Cursor Mermaid exfiltration, CVE-2025-54132 (advisory GHSA-xw2x-252g-97w2)
+- Cursor Mermaid exfiltration, CVE-2025-54132 (advisory GHSA-43wj-mwcc-x93p)
 - EchoLeak, CVE-2025-32711

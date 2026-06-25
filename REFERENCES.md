@@ -19,7 +19,7 @@ Sources drawn on in this reference. Research papers are cited where their findin
 
 ## Documented incidents / CVEs
 - **EchoLeak**: CVE-2025-32711 (Microsoft 365 Copilot zero-click exfiltration).
-- **Cursor IDE Mermaid exfiltration**: CVE-2025-54132 (advisory GHSA-xw2x-252g-97w2; fixed v1.3).
+- **Cursor IDE Mermaid exfiltration**: CVE-2025-54132 (advisory GHSA-43wj-mwcc-x93p; fixed v1.3).
 - **Image-scaling prompt injection**: Trail of Bits (2025).
 - **OpenClaw "Claw Chain"**: Cyera; **OWASP GenAI Exploit Round-up Q1 2026**; **Mindgard** audio jailbreaks.
 

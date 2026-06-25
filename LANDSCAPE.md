@@ -36,6 +36,6 @@ MCP tool arguments as a resource-abuse surface across modalities (IBM, "Preventi
 
 ## Key references
 - CSA Image-Based Prompt Injection note / arXiv 2603.03637
-- EchoLeak CVE-2025-32711 ; Cursor CVE-2025-54132 (GHSA-xw2x-252g-97w2)
+- EchoLeak CVE-2025-32711 ; Cursor CVE-2025-54132 (GHSA-43wj-mwcc-x93p)
 - MM-SafetyBench (2311.17600), JailBreakV-28K (2404.03027), Omni-SafetyBench
 - OWASP AISVS v1.0 ; OWASP LLM Top 10 (2025) ; CSA AICM ; CSA Agentic Trust Framework ; NIST AI RMF + SP 800-53 ; MITRE ATLAS
